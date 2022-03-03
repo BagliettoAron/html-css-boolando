@@ -27,7 +27,6 @@ body{
 }
 
 .product{
-    border: 1px solid black;
     display: inline-block;
     margin: 0 4px;
     width: calc(100% / 3 - 8px);
@@ -44,6 +43,8 @@ body{
     position: relative;
 }
 
+/* IMAGE HOVER EFFECT IMG 1 */
+
 .product .image .img-1b{
     display: none;
 }
@@ -53,6 +54,76 @@ body{
 }
 
 .product:hover .img-1a{
+    display: none;
+}
+
+/* IMAGE HOVER EFFECT IMG 2 */
+
+.product .image .img-2b{
+    display: none;
+}
+
+.product:hover .img-2b{
+    display: inline-block;
+}
+
+.product:hover .img-2a{
+    display: none;
+}
+
+/* IMAGE HOVER EFFECT IMG 3 */
+
+.product .image .img-3b{
+    display: none;
+}
+
+.product:hover .img-3b{
+    display: inline-block;
+}
+
+.product:hover .img-3a{
+    display: none;
+}
+
+/* IMAGE HOVER EFFECT IMG 4 */
+
+.product .image .img-4b{
+    display: none;
+}
+
+.product:hover .img-4b{
+    display: inline-block;
+}
+
+.product:hover .img-4a{
+    display: none;
+}
+
+/* IMAGE HOVER EFFECT IMG 5 */
+
+.product .image .img-5b{
+    display: none;
+}
+
+.product:hover .img-5b{
+    display: inline-block;
+}
+
+.product:hover .img-5a{
+    display: none;
+}
+
+/* IMAGE HOVER EFFECT IMG 6 */
+
+.product .image .img-6b{
+    display: none;
+}
+
+.product:hover .img-6b{
+    display: inline-block;
+}
+
+.product:hover .img-6a{
     display: none;
 }
 
@@ -111,6 +182,8 @@ background-color: green;
     right: 0;
     top: 4%;
 }
+
+/* HEART HOVER EFFECT */
 
 .product:hover .hearts{
     color: red;
