@@ -33,6 +33,8 @@ body{
     width: calc(100% / 3 - 8px);
 }
 
+/* IMAGE */
+
 .row .product img{
     max-width: 100%;
     position: relative;
@@ -40,6 +42,18 @@ body{
 
 .image{
     position: relative;
+}
+
+.product .image .img-1b{
+    display: none;
+}
+
+.product:hover .img-1b{
+    display: inline-block;
+}
+
+.product:hover .img-1a{
+    display: none;
 }
 
 /* PRODUCT INFO */
@@ -75,6 +89,7 @@ font-size: .8em;
     line-height: 15px;
     font-size: .7em;
     bottom: 3%;
+    color: white;
 }
 
 .product .sostenibilità , .tag{
@@ -97,8 +112,8 @@ background-color: green;
     top: 4%;
 }
 
-.hearts{
-    
-    
-
+.product:hover .hearts{
+    color: red;
 }
+
+
