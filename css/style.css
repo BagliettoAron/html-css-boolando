@@ -16,7 +16,6 @@ body{
 .container{
     width: 60%;
     max-width: 1200px;
-    background-color: orange;
     margin: 3em auto;
 }
 
@@ -153,6 +152,8 @@ font-size: .8em;
     background-color: red;
 }
 
+/* COOMON TAG */
+
 .product .tag{
     position: absolute;
     height: 15px;
@@ -163,11 +164,19 @@ font-size: .8em;
     color: white;
 }
 
+/* SOSTENIBILITA' */
+
 .product .sostenibilità , .tag{
 left: 12%;
 width: 65px;
 background-color: green;
 }
+
+.product .sostenibilità-odd , .tag{
+    left: 0%;
+    width: 65px;
+    background-color: green;
+    }
 
 /* HEART */
 
