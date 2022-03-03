@@ -1,6 +1,104 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* FONT */
+
+body{
+    font-family: Sans-Serif;
+}
+
+/* BODY */
+
+.container{
+    width: 60%;
+    max-width: 1200px;
+    background-color: orange;
+    margin: 3em auto;
+}
+
+/* COMMON */
+
+.row{
+    width: 100%;
+}
+
+.product{
+    border: 1px solid black;
+    display: inline-block;
+    margin: 0 4px;
+    width: calc(100% / 3 - 8px);
+}
+
+.row .product img{
+    max-width: 100%;
+    position: relative;
+}
+
+.image{
+    position: relative;
+}
+
+/* PRODUCT INFO */
+
+.product .product-info .info-small{
+font-size: .8em;
+}
+
+.product .product-info .bold{
+    font-weight: bolder;
+}
+
+.product .product-info .red{
+    color: red;
+}
+
+.product .product-info .decoration{
+    text-decoration:line-through;
+}
+
+/* PRODUCT TAG */
+
+.product .discount{
+    left: 0;
+    width: 30px;
+    background-color: red;
+}
+
+.product .tag{
+    position: absolute;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    font-size: .7em;
+    bottom: 3%;
+}
+
+.product .sostenibilità , .tag{
+left: 12%;
+width: 65px;
+background-color: green;
+}
+
+/* HEART */
+
+.hearts-bg{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 2em;
+    right: 0;
+    top: 4%;
+}
+
+.hearts{
+    
+    
+
+}
